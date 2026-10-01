@@ -1,0 +1,2 @@
+readelf -h linux_hello
+readelf -l linux_hello

@@ -4,3 +4,4 @@ del *.dll
 del *.lib
 del *.exp
 del *.o
+del linux_hello

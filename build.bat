@@ -3,6 +3,7 @@ del *.exe
 del *.dll
 del *.lib
 del *.exp
+del linux_hello
 
 cl lib_parser.c
 
