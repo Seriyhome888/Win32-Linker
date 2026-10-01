@@ -1,0 +1,17 @@
+﻿+-------------------------------------------------------+
+
+| Elf32_Ehdr Execution Frame Header (Offset 0x00)       |
++-------------------------------------------------------+
+
+| Elf32_Phdr Program Segments Table (Text & Data Slots) |
++-------------------------------------------------------+
+
+| Code Segment (Mapped at file page boundary offset)    |
+| -> Contains the aggregated .text opcodes              |
+| -> Protection Flags: PF_R | PF_X (Read + Execute)     |
++-------------------------------------------------------+
+
+| Data Segment (Mapped at 0x1000 page aligned step)     |
+| -> Contains initialization tables and constant pools |
+| -> Protection Flags: PF_R | PF_W (Read + Write, NX)   |
++=======================================================+
