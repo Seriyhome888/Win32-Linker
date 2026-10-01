@@ -1,0 +1,1 @@
+dumpbin /headers multi_test.exe

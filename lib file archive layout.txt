@@ -1,0 +1,20 @@
++-------------------------------------------------------+
+
+|  "!<arch>\n" Magic Signature (8 Bytes)                 |
++-------------------------------------------------------+
+
+|  Member 1: First Linker Member (Symbol Index)        |
+|  -> Contains a count and string pool of all exports  |
++-------------------------------------------------------+
+
+|  Member 2: Second Linker Member (Offset Directory)   |
+|  -> Maps symbol string entries to archive offsets    |
++-------------------------------------------------------+
+
+|  Member 3: Longnames Member (String Pool)             |
+|  -> Holds raw ASCII names of our target DLL file     |
++-------------------------------------------------------+
+
+|  Member 4: The Short Import Object Member           |
+|  -> Holds the formal IMPORT_OBJECT_HEADER descriptor  |
++=======================================================+
