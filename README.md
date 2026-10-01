@@ -7,4 +7,5 @@ Run build.bat - for Windows \
 Run linux_build.bat - for Linux
 
 # Run samples
-Run run.bat
+Run run.bat - for Windows \
+In Linux\WSL - run ./linux_hello
